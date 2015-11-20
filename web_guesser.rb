@@ -20,11 +20,6 @@ def check_guess(guess)
   elsif guess < SECRET_NUMBER
     "Too low!"
   else
-    "Yay! You got it right!!<br><br>The SECRET NUMBER was #{SECRET_NUMBER}."
+    "Yay! You got it right!!"
   end
 end
-
-# get '/' do
-#   guess = params['guess'].to_i
-#   erb :index, :locals => {:number => number, :guess => params['guess'], :message => message}
-# end
